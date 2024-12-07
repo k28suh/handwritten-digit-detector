@@ -1,25 +1,38 @@
-# handwritten-digit-detector
-In This Project , It is a detect a real handwritten digits using python , OpenCV and tensorflow-keras.<br/>
-this is also working for real time and image based script.<br/>
-<br/>
-Accuracy : 97.3%</b>
-<br/>
-You can clone this project and run it.<br/>
-<br/>
-this project is also contain some image and video which you can run and check it.<br/>
-<br/>
-All vidoes file is available in Video folder and Images are available in Image folder.<br/>
-<br/>
-Result of Image and Video are also available in resultimage and resultvideo folder respectivily.<br/>
-<br/>
-you can run realtimedetection.py file and check it using video and testscript.py for image.<br/>
-<br/>
-type command in terminal<br/>
-<br/>
-<code>python3 realTimedetection.py</code></br>
-<br/>
-<code>python3 testscript.py</code></br>
-<br/>
+# Handwritten Digit Detection Using Python, OpenCV, and TensorFlow-Keras
+
+This project detects handwritten digits using Python, OpenCV, and TensorFlow-Keras. It supports both real-time video input and image-based input.
+
+## Accuracy
+
+- **Accuracy:** 97.3%
+
+## Features
+
+- Real-time digit detection using video input.
+- Image-based digit detection for testing with predefined images.
+- Detailed results saved in separate folders for easy access.
+- Includes videos and images for testing the model.
+
+## Project Structure
+
+- **Video Folder**: Contains video files for real-time testing.
+- **Image Folder**: Contains image files for testing.
+- **ResultImage Folder**: Stores the output results of image-based tests.
+- **ResultVideo Folder**: Stores the output results of video-based tests.
+- **realTimedetection.py**: Script for real-time video input digit detection.
+- **testscript.py**: Script for image-based digit detection.
+
+## Requirements
+
+- Python 3.x
+- OpenCV
+- TensorFlow (Keras)
+- NumPy
+
+You can install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
 
 <b>Result Image</b>
 ![Result Image](result_image.jpg)
