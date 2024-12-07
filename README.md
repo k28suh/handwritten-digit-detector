@@ -31,12 +31,9 @@ This project detects handwritten digits using Python, OpenCV, and TensorFlow-Ker
 
 You can install the required dependencies using:
 
-```bash
-pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 
-<b>Result Image</b>
-![Result Image](result_image.jpg)
-![Result Image1](resultimage/image2.jpg)
-![Result Image2](resultimage/image3.jpg)
-![Result Image3](resultimage/image4.jpg)
-![Result Image4](resultimage/image7.jpg)
+
+
+
